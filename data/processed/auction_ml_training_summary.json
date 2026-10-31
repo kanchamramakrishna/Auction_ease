@@ -1,0 +1,45 @@
+{
+  "source_file": "player_match_final_roles.csv",
+  "role_labelled_players": 215,
+  "source_player_match_rows": 10738,
+  "aggregated_player_season_rows": 1119,
+  "training_dataset_rows": 904,
+  "training_dataset_unique_players": 168,
+  "training_dataset_seasons": 18,
+  "chronological_season_order": [
+    "2007/08",
+    "2009",
+    "2009/10",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020/21",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "held_out_seasons": [
+    "2025",
+    "2026"
+  ],
+  "train_rows": 646,
+  "test_rows": 258,
+  "trained_targets": [
+    "target_runs_per_match",
+    "target_strike_rate",
+    "target_wickets_per_match"
+  ],
+  "model_file": "auction_ease_performance_models.joblib",
+  "dataset_file": "auction_ml_training_dataset.csv",
+  "metrics_file": "auction_ml_evaluation_metrics.csv",
+  "test_predictions_file": "auction_ml_test_predictions.csv"
+}
